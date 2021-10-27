@@ -1,0 +1,86 @@
+﻿/*Background*/
+body {
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* Menu */
+.vertical-menu {
+    min-height: 200px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Needed to position the navbar */
+    position: relative;
+}
+
+/* Position the navbar container inside the image */
+.container {
+    position: absolute;
+    margin: 20px;
+    width: auto;
+}
+
+/* The navbar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+    /* Navbar links */
+    .topnav a {
+        float: left;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 20px 30px;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+/*Map*/
+.container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+img {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1325px;
+    height: 200px;
+}
+
+.table {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    padding-left: 80px;
+}
+.text {
+    color: antiquewhite;
+    font-size: 25px;
+    padding-left: 25px;
+    padding-right:15px;
+}
+.header {
+    color: antiquewhite;
+    font-size: 35px;
+    padding-left: 25px;
+}
+
